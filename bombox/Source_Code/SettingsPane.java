@@ -57,7 +57,7 @@ public class SettingsPane extends GridPane
 					woodImage.setImage(Image_Manager.wood2Image);
 					break;
 				}
-				case "Wood log":
+				default:
 				{
 					woodImage.setImage(Image_Manager.wood3Image);
 					break;
@@ -82,7 +82,7 @@ public class SettingsPane extends GridPane
 					mirrorImage.setImage(Image_Manager.mirror2Image);
 					break;
 				}
-				case "Cyan Glass":
+				default:
 				{
 					mirrorImage.setImage(Image_Manager.mirror3Image);
 					break;
@@ -107,7 +107,7 @@ public class SettingsPane extends GridPane
 					emptyImage.setImage(Image_Manager.empty2Image);
 					break;
 				}
-				case "Clay":
+				default:
 				{
 					emptyImage.setImage(Image_Manager.empty3Image);
 					break;
@@ -132,7 +132,7 @@ public class SettingsPane extends GridPane
 					wallImage.setImage(Image_Manager.wall2Image);
 					break;
 				}
-				case "Obsidian":
+				default:
 				{
 					wallImage.setImage(Image_Manager.wall3Image);
 					break;
@@ -197,7 +197,7 @@ public class SettingsPane extends GridPane
 				WoodTile.imageOfTile = Image_Manager.wood2Image;
 				break;
 			}
-			case "Wood log":
+			default:
 			{
 				WoodTile.imageOfTile = Image_Manager.wood3Image;
 				break;
@@ -223,7 +223,7 @@ public class SettingsPane extends GridPane
 				MirrorTile.imageOfTile = Image_Manager.mirror2Image;
 				break;
 			}
-			case "Cyan Glass":
+			default:
 			{
 				MirrorTile.imageOfTile = Image_Manager.mirror3Image;
 				break;
@@ -249,7 +249,7 @@ public class SettingsPane extends GridPane
 				EmptyTile.imageOfTile = Image_Manager.empty2Image;
 				break;
 			}
-			case "Clay":
+			default:
 			{
 				EmptyTile.imageOfTile = Image_Manager.empty3Image;
 				break;
@@ -275,7 +275,7 @@ public class SettingsPane extends GridPane
 				WallTile.imageOfTile = Image_Manager.wall2Image;
 				break;
 			}
-			case "Obsidian":
+			default:
 			{
 				WallTile.imageOfTile = Image_Manager.wall3Image;
 				break;
