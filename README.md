@@ -29,7 +29,7 @@ Highscore<br/>
 Made the game level selection pane.<br/>
 Made save game feature in a pane that also saves current score.<br/>
 Made load game feature in a pane that also loads current score.<br/>
-Made the login screen with our logo and thumbnail (maim menu).<br/>
+Made the login screen with our logo and thumbnail (main menu).<br/>
 Made the about us pane.<br/>
 Added additional box textures.<br/>
 Added reaction images that change according to your instant scores.<br/>
