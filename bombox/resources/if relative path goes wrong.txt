@@ -1,0 +1,25 @@
+Please change the paths in the lines below to match with this folder.
+
+The lines can be differ +10-10
+
+Game_Manager
+
+line 150
+line 333
+line 410
+line 485
+line 523
+line 574
+
+LevelPane
+
+line 39
+
+SavePane
+
+line 30
+line 112
+
+Image_Manager
+
+all lines :p
