@@ -20,10 +20,10 @@ Basic scoring is done accordingly to;<br/>
 <hr/>
 
 ## Features
-There are 3 main features:
+There are 3 main features:<br/>
 Restart Label<br/>
 Save Game / Load Game<br/>
-Highscore<br/>
+Highscore
 
 ## Additional Features
 Made the game level selection pane.<br/>
