@@ -62,7 +62,7 @@ public class Game extends Application
 		bottomPane.setLeft(bottomLabel);							//set bottompane's left the bottomLabel that contains infoStr
 		
 		borderPaneMAIN = new BorderPane();
-		borderPaneMAIN.setBottom(bottomPane);;
+		borderPaneMAIN.setBottom(bottomPane);
 	    borderPaneMAIN.setCenter(pane);
 	    BorderPane infoUI = setInfoUI();
 	    borderPaneMAIN.setTop(infoUI);
@@ -129,7 +129,6 @@ public class Game extends Application
 				newGameStage.setOnCloseRequest(k -> mainmenuStage.show());
 				mainmenuStage.close();
 			} catch (Exception e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		});
@@ -148,7 +147,6 @@ public class Game extends Application
 				loadStage.setOnCloseRequest(k -> mainmenuStage.show());
 				mainmenuStage.close();
 			} catch (Exception e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		});
@@ -165,7 +163,6 @@ public class Game extends Application
 				settingsStage.setScene(sc);
 				settingsStage.show();
 			} catch (Exception e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		});
@@ -182,7 +179,6 @@ public class Game extends Application
 				creditsStage.setScene(sc);
 				creditsStage.show();
 			} catch (Exception e1) {
-				// TODO Auto-generated catch block
 				e1.printStackTrace();
 			}
 		});
