@@ -1,5 +1,5 @@
 ## How To Play
-The basic aim of the game we have prepared is based on people trying to reach the highest score with the least number of clicks. Click affects the area it is in, right, left, up and down We have used many game grid options. In addition to 10x10 we also used 13x13 and 15x15. and different types of boxes can be found in each 1x1 section of this game grid. These are;
+The basic aim of the game we have prepared is based on people trying to reach the highest score with the least number of clicks. Click affects the area it is in, right, left, up and down We have used many game grid options.And different types of boxes can be found in each 1x1 section of this game grid. These are;
 
 ### 1.Empty Type Box: 
 An unclickable box with no features. Other clickable boxes change to this when clicked.<br/>
