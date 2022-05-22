@@ -71,7 +71,7 @@ public class Game_Manager
 					pane.add(tile[Integer.parseInt(k.get(i+1))][Integer.parseInt(k.get(i+2))] = new WoodTile(), Integer.parseInt(k.get(i+2)), Integer.parseInt(k.get(i+1)));
 					break;
 					}
-				case "Bomb":{
+				default:{
 					pane.add(tile[Integer.parseInt(k.get(i+1))][Integer.parseInt(k.get(i+2))] = new BombTile(), Integer.parseInt(k.get(i+2)), Integer.parseInt(k.get(i+1)));
 					break;
 					}
@@ -113,7 +113,7 @@ public class Game_Manager
 					pane.add(tile[Integer.parseInt(k.get(i+1))][Integer.parseInt(k.get(i+2))] = new WoodTile(), Integer.parseInt(k.get(i+2)), Integer.parseInt(k.get(i+1)));
 					break;
 					}
-				case "Bomb":{
+				default:{
 					pane.add(tile[Integer.parseInt(k.get(i+1))][Integer.parseInt(k.get(i+2))] = new BombTile(), Integer.parseInt(k.get(i+2)), Integer.parseInt(k.get(i+1)));
 					break;
 					}
@@ -390,7 +390,7 @@ public class Game_Manager
 						pw.print("Wood," + tempParts.get(i+1) + "," + tempParts.get(i+2) + "\n");
 						break;
 						}
-					case "Bomb":{
+					default:{
 						pw.print("Bomb," + tempParts.get(i+1) + "," + tempParts.get(i+2) + "\n");
 						break;
 						}
@@ -467,7 +467,7 @@ public class Game_Manager
 						pw.print("Wood," + tempParts.get(i+1) + "," + tempParts.get(i+2) + "\n");
 						break;
 						}
-					case "Bomb":{
+					default:{
 						pw.print("Bomb," + tempParts.get(i+1) + "," + tempParts.get(i+2) + "\n");
 						break;
 						}
