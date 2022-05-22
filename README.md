@@ -18,11 +18,13 @@ Basic scoring is done accordingly to;<br/>
 4 box destroy: +2 points<br/>
 5 box destroy: +4 points
 <hr/>
+
 ## Features
 There are 3 main features:
-1. Restart Label<br/>
-2. Save Game / Load Game<br/>
-3. Highscore<br/>
+Restart Label<br/>
+Save Game / Load Game<br/>
+Highscore<br/>
+
 ## Additional Features
 Made the game level selection pane.<br/>
 Made save game feature in a pane that also saves current score.<br/>
